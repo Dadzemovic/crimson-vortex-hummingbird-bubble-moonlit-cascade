@@ -1,0 +1,9 @@
+__pycache__
+bin/
+data/
+etc/
+include/
+lib/
+share/
+*.swp
+pyvenv.cfg
