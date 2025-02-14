@@ -451,4 +451,5 @@ st.markdown(
 
 # Add Load Data button
 if st.button("🔄 Load/Refresh Data (slow)"):
+    initialize_database()
     load_data()
