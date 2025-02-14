@@ -1,17 +1,12 @@
-# eCFR Agency Word Count Analyzer
+# eCFR Analyzer
 
-This Streamlit application analyzes word counts from the Electronic Code of Federal Regulations (eCFR) API by agency.
-
-## Features
-- Select different agencies from the eCFR
-- View word counts per title within each agency
-- Interactive bar charts using Plotly
-- Raw data display
-- Total word count metrics
+This Streamlit application analyzes word counts, historical edits, and regulation redundancy across the Electronic Code of Federal Regulations (eCFR).
 
 ## Setup
 1. Install the required dependencies:
 ```bash
+python -m venv .
+. bin/activate
 pip install -r requirements.txt
 ```
 
@@ -19,10 +14,3 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-## Usage
-1. Select an agency from the dropdown menu
-2. The app will fetch and display:
-   - Bar chart of word counts by title
-   - Raw data table
-   - Total word count for the agency
