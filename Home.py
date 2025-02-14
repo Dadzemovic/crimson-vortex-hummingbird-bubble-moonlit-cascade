@@ -327,7 +327,7 @@ def load_data():
                 return
             
             # Process each title
-            for title in titles[:3]:
+            for title in titles:
                 title_number = title['number']
                 latest_date = title.get('latest_issue_date')
                 
